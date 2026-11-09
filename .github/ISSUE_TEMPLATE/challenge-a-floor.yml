@@ -1,0 +1,32 @@
+name: Challenge a floor
+description: A floor's question, tools, time horizon or cost sounds wrong.
+title: "Floor: "
+labels: ["floor"]
+body:
+  - type: dropdown
+    id: floor
+    attributes:
+      label: Which floor
+      options:
+        - "0 · The Desk"
+        - "1 · The Backlog"
+        - "2 · The Planner"
+        - "3 · The Roadmap"
+        - "4 · The Portfolio"
+        - "5 · The Playbook"
+        - "6 · The Org Chart"
+        - "7 · The P&L"
+        - "8 · The Board"
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What sounds wrong
+    validations:
+      required: true
+  - type: textarea
+    id: lived
+    attributes:
+      label: What you have seen instead
+      description: One true example beats a theory. Nothing confidential.

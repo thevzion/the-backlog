@@ -1,0 +1,20 @@
+name: Share a rule
+description: A rule from your work, the kind nobody writes down.
+title: "Rule: "
+labels: ["rule"]
+body:
+  - type: textarea
+    id: rule
+    attributes:
+      label: The rule
+      description: For example "a customer who waits more than a day never comes back".
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Field and floor where it applies
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it holds, as far as you know

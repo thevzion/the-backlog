@@ -1,0 +1,43 @@
+name: Propose a field
+description: Your work runs on a backlog too. Describe it.
+title: "Field: "
+labels: ["field"]
+body:
+  - type: input
+    id: field
+    attributes:
+      label: Your field
+      description: The domain, not a job title (for example Support, Design, Sales, Legal, Recruiting).
+    validations:
+      required: true
+  - type: textarea
+    id: backlog
+    attributes:
+      label: What your backlog holds
+      description: The work that waits for you, and where it comes from.
+    validations:
+      required: true
+  - type: textarea
+    id: good
+    attributes:
+      label: What good work means there
+    validations:
+      required: true
+  - type: input
+    id: feedback
+    attributes:
+      label: How fast you find out whether it was good
+      description: Minutes, hours, days, weeks, months.
+  - type: textarea
+    id: agent
+    attributes:
+      label: What an AI agent is worth in it today
+  - type: textarea
+    id: learn
+    attributes:
+      label: What you learn by doing it
+  - type: textarea
+    id: words
+    attributes:
+      label: The real words of your field
+      description: Terms an outsider would need, with one line each.

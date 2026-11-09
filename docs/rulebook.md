@@ -1,4 +1,4 @@
-# The floor plan
+# The rulebook
 
 Version 0. Everything here is a working hypothesis, meant to be challenged. When the game tests a rule and it does not hold, the rule changes here.
 
@@ -15,7 +15,7 @@ Each floor takes back one question about the work. Below you, the floor undernea
 | 2 · The Planner | Who, and when? | Capacity planning | a calendar | the day | a person becomes a line in a schedule |
 | 3 · The Roadmap | What for? | Project management | a roadmap | the week | tasks, swallowed by projects |
 | 4 · The Portfolio | Why this one? | Portfolio management | a set of bets | the quarter | people become "capacity" |
-| 5 · The Playbook | By which rule? | Process design | a rulebook | the quarter | cards: rules move them now |
+| 5 · The Playbook | By which rule? | Process design | a playbook | the quarter | cards: rules move them now |
 | 6 · The Org Chart | Who decides? | Organization design | an org chart | the quarter | people, behind their managers |
 | 7 · The P&L | Does it pay? | Business operations, finance | a spreadsheet | the year | "0.8 FTE", then a pixel |
 | 8 · The Board | Who owns the company? | Governance and capital | the company | the year | |

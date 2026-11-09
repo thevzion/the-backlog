@@ -2,9 +2,9 @@
 
 **From the desk to the board.**
 
-A management game about running a company with people and AI agents, and an open map of how work really runs, floor by floor, field by field.
+A management game about running a company with people and AI agents, and the open rulebook of how work really runs, floor by floor, field by field.
 
-> **Where this stands, honestly.** There is no playable game in this repository yet. The prototypes are private while the core loop is being found and tested. What is here today is the map: the floors, the fields and the rules we think hold. If you want to see it grow, star the repository. If you think the map is wrong, open an issue.
+> **Where this stands, honestly.** There is no playable game in this repository yet. The prototypes are private while the core loop is being found and tested. What is here today is its rulebook: the floors, the fields and the rules we think hold. If you want to see it grow, star the repository. If you think a rule is wrong, open an issue.
 
 ## Why this exists
 
@@ -31,7 +31,7 @@ Each floor takes back one question about the work, and is named after the tool t
 | 8 · The Board | Who owns the company? | the company |
 | 7 · The P&L | Does it pay? | a spreadsheet |
 | 6 · The Org Chart | Who decides? | an org chart |
-| 5 · The Playbook | By which rule? | a rulebook |
+| 5 · The Playbook | By which rule? | a playbook |
 | 4 · The Portfolio | Why this one? | a set of bets |
 | 3 · The Roadmap | What for? | a roadmap |
 | 2 · The Planner | Who, and when? | a calendar |
@@ -44,7 +44,9 @@ Every floor starts with a problem you have already felt. Climbing has a price, t
 
 Tech, Product and Marketing come first; Support, Design and Sales come later. Every field runs on a backlog. Job titles change; fields stay. You learn a field, not a job: the job gets delegated, the field stays yours.
 
-The full map, with what each floor and each field changes, is in [docs/floor-plan.md](docs/floor-plan.md).
+**Agents extend your reach. Only you grow your capital.** With agents you can go far into a field you don't master, as long as you know what to ask. Climbing a floor once people are involved takes what can't be delegated: trust, growing people, choosing between them.
+
+The full map, with what each floor and each field changes, is in [the rulebook](docs/rulebook.md).
 
 ## The game
 
@@ -57,19 +59,22 @@ You start at a desk, with a task someone else chose. Then the board is yours, an
 
 Single player, in the browser. Agents in the game are simulated: no real AI runs in it. It is built in vertical slices, each one a complete little game.
 
+This game exists because agents opened fields I couldn't work in alone: game design, sound, motion, marketing.
+
 **Status:** private prototypes. The first board and its methods are being played and tuned; the first three floors are being built. Nothing is playable publicly yet, and there is no release date.
 
-## The map is open
+## The game already exists. This is its rulebook.
 
-The game is built on a shared model of work: for each floor and each field, the question you take back, the tools, the time horizon, what good work looks like, how fast you find out, what an agent is worth there, and what you stop seeing as you climb.
+Work is already a game, with floors, fields and rules nobody wrote down. The Backlog makes it visible; this repository writes its rules down. For each floor and each field, it records the question you take back, the tools, the time horizon, what good work looks like, how fast you find out, what an agent is worth there, and what you stop seeing as you climb.
 
-That model should be written by the people who do the work, not guessed by one developer. Every rule we keep gets tested in play.
+Those rules should be written by the people who do the work, not guessed by one developer. Every rule we keep gets tested in play.
 
 ## How to help
 
 - **Star this repository.** It is the clearest signal that this is worth building.
 - **Propose a field.** Your job runs on a backlog too: tell us what it holds and what good work means there.
 - **Challenge a floor.** If a question, a tool or a time horizon is wrong, say so.
+- **Propose a cell.** One field at one floor: what gets decided there, in your work.
 - **Share a rule from your work.** A real one, the kind nobody writes down.
 
 Start with [CONTRIBUTING.md](CONTRIBUTING.md).

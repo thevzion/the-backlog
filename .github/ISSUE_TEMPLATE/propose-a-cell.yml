@@ -1,0 +1,45 @@
+name: Propose a cell
+description: One field at one floor. Tell us what is decided there, with a real example.
+title: "Cell: "
+labels: ["cell"]
+body:
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: The domain (for example Product, Marketing, Support, Design, Sales).
+    validations:
+      required: true
+  - type: dropdown
+    id: floor
+    attributes:
+      label: Floor
+      options:
+        - "0 · The Desk"
+        - "1 · The Backlog"
+        - "2 · The Planner"
+        - "3 · The Roadmap"
+        - "4 · The Portfolio"
+        - "5 · The Playbook"
+        - "6 · The Org Chart"
+        - "7 · The P&L"
+        - "8 · The Board"
+    validations:
+      required: true
+  - type: textarea
+    id: decide
+    attributes:
+      label: What gets decided there
+      description: The floor's question, in your field. Who answers it, and how.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: A real example
+      description: One situation you have lived. Nothing confidential.
+  - type: textarea
+    id: words
+    attributes:
+      label: The real words
+      description: Terms people use there, with one line each.

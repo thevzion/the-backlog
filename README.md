@@ -69,6 +69,10 @@ Work is already a game, with floors, fields and rules nobody wrote down. The Bac
 
 Those rules should be written by the people who do the work, not guessed by one developer. Every rule we keep gets tested in play.
 
+## Whose map is this?
+
+Most maps of a company are drawn from the top: org charts, frameworks, slides. This one is drawn from the desk, looking up. It's one developer's hypothesis about how work runs, floor by floor. The lower floors are drawn from the inside, the higher ones from models and from people who've been there. The fog marks what's still being drawn. As the game gets played and people correct it, the map changes, and every change says why.
+
 ## How to help
 
 - **Star this repository.** It is the clearest signal that this is worth building.

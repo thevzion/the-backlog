@@ -1,6 +1,6 @@
 # The rulebook
 
-Version 0. Everything here is a working hypothesis, meant to be challenged. When the game tests a rule and it does not hold, the rule changes here.
+Version 0. Everything here is a working hypothesis, drawn from the desk, looking up, and meant to be challenged. The lower floors are drawn from the inside, the higher ones from models and from people who've been there. When the game tests a rule and it does not hold, or when someone who works there corrects it, the rule changes here, and the change says why.
 
 **Your field is what you know. Your floor is what you decide.**
 

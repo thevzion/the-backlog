@@ -56,16 +56,26 @@ The more checkable the work, the more an agent is worth there. That is why Tech 
 
 ## Rules we think hold
 
-1. **Every number has its recipe.** You always know why something goes up or down.
-2. **The problem before the method.** A method opens only once you have felt the problem it solves.
-3. **Humans and agents complement each other.** Agents bring volume and the night; humans bring care, scoping and judgment.
-4. **A better system beats a better model.** Humans and agents plug into the same board; quality comes from how you run it.
-5. **Real words only.** When the real term exists (Kanban, WIP, capacity, decision rights, P&L), we use it.
-6. **You learn a field, not a job.** You learn it by doing the job first; then the job gets delegated, and the field stays yours.
-7. **The drift comes from the rules.** Nothing is scripted to make you treat people as numbers; it is simply the efficient path, and you can resist it at a visible price.
+Each rule carries a status that says how far it has been tested:
+
+- `hypothesis`: written down, not yet challenged or played;
+- `discussed`: challenged in issues, and still holding;
+- `in play`: built into the game and being tested in play;
+- `seen at work`: confirmed by people who live it, with examples.
+
+A rule that wins in the game, or that people agree with, is not yet proven at work. The status keeps that difference visible.
+
+1. **Every number has its recipe.** You always know why something goes up or down. `in play`
+2. **The problem before the method.** A method opens only once you have felt the problem it solves. `in play`
+3. **Humans and agents complement each other.** Agents bring volume and the night; humans bring care, scoping and judgment. `hypothesis`
+4. **A better system beats a better model.** Humans and agents plug into the same board; quality comes from how you run it. `hypothesis`
+5. **Real words only.** When the real term exists (Kanban, WIP, capacity, decision rights, P&L), we use it. `hypothesis`
+6. **You learn a field, not a job.** You learn it by doing the job first; then the job gets delegated, and the field stays yours. `hypothesis`
+7. **The drift comes from the rules.** Nothing is scripted to make you treat people as numbers; it is simply the efficient path, and you can resist it at a visible price. `hypothesis`
 
 ## What we don't know yet
 
 - Floors 4 (The Portfolio) and 8 (The Board) are the least grounded in real gestures.
 - Design and Sales each need a rule of their own before they can be played.
 - The four axes of a field are rough guesses: people who work in that field should correct them.
+- How to make your place on the two axes measurable, beyond placing yourself.
